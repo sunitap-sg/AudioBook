@@ -372,6 +372,6 @@ def process_book(pdf_path: str, base_folder: str = BASE_PARSED_FOLDER) -> None:
 if __name__ == "__main__":
     _pdf_path = os.getenv(
         "INPUT_PDF",
-        r"C:\Users\baps\sunita\Test\input_pdf\The Little Book of Good Thi_ (Z-Library).pdf",
+        pdf_path,   #add your pdf path here
     )
     process_book(_pdf_path)
