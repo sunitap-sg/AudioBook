@@ -1,0 +1,7 @@
+pdfplumber
+openai
+python-dotenv
+
+
+neo4j
+neo4j-graphrag
